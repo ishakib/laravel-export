@@ -1,0 +1,16 @@
+{
+    "name": "vendor/laravel-export",
+    "description": "Reusable Laravel export functionality (CSV/PDF, async, status tracking)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Export\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=10.0",
+        "barryvdh/laravel-dompdf": "^2.0"
+    }
+}
