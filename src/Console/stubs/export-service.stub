@@ -1,0 +1,14 @@
+<?php
+
+namespace Vendor\Export\Console\stubs;
+
+<?php
+
+namespace App\Exports;
+
+use Vendor\Export\ExportService;
+
+class DummyExportService extends ExportService
+{
+    // Implement export logic here
+}
